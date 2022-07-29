@@ -10,7 +10,7 @@ build: off
 
 install:
 
-  - java -jar ./artifacts/app-mbank.jar
+  java -Duser.language=en -Duser.country=US -jar app-mbank.jar
   - chmod + gradlew
 build_script:
   - ./gradlew test --info
