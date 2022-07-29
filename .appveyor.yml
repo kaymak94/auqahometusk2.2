@@ -11,6 +11,6 @@ build: off
 install:
 
   - java -jar ./artifacts/app-mbank.jar &
-  - chmod + gradlew
+  - chmod + x gradlew
 build_script:
   - ./gradlew test --info
